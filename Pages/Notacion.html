@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Mauricio Alberto Rodriguez Garcia">
+	<link rel="stylesheet" href="../Css/styles.css">
+	<link rel="icon" href="../Images/garza.png">
+    <title>Notacion</title>
+</head>
+
+<body>
+
+<section id="Inicio">
+	<section id="body">
+		<section class="banner">
+			<h1>Técnica Grafos de Causa-Efecto</h1>
+
+			<ul id="topnav">
+				<li><a href="../index.html" >Inicio</a></li>
+				<li><a href="Introduccion.html">Introducción</a></li>
+				<li><a href="Notacion.html" class="active">Notación</a></li>
+				<li><a href="Ejemplo.html">Ejemplo</a></li>
+				<li><a href="Actividad.html">Actividad</a></li>
+			</ul>
+	
+		</section>
+		<h1>Notaciones utilizadas en el gráfico de causa-efecto</h1> <br>
+		<p><b>Y (AND) :</b> E1 es un efecto y C1 y C2 son las causas. Si tanto C1 como C2 son verdaderos, entonces el efecto E1 será verdadero.</p>
+		<img src="../Images/And.jpg"><br><br>
+		<p><b>O (OR) :</b> Si alguna de las causas de C1 y C2 es verdadera, entonces el efecto E1 será verdadero.</p>
+		<img src="../Images/Or.jpg"><br><br>
+		<p><b>NO (NOT):</b> si la causa C1 es falsa, el efecto E1 será verdadero.</p>
+		<img src="../Images/Not.jpg"><br><br>
+		<p><b>Mutuamente excluyente:</b> cuando solo una causa es verdadera.</p>
+		<img src="../Images/MutualmenteEx.jpg"><br><br><br><br>
+
+        <h1>Pasos a seguir</h1> <br>
+        <p>Seguimos entonces los siguientes pasos para la construcción del grafo:
+		Dividir la especificación en piezas que sean ‘trabajables’. No intentar crear un simple grafo para toda la especificación.
+		Identificar Causas y Efectos:</p>
+		<ol>
+			<li>Una causa es una única condición de entrada.</li>
+				<li>Un efecto es una condición de salida o transformación del sistema.</li>
+					<li>Traducir las relaciones semánticas en cada segmento en relaciones booleanas enlazando causas con efectos. Es decir, construir los grafos.</li>
+						<li>Colocar las restricciones que se aplican a las causas y efectos.</li>
+	    </ol>
+		<img src="../Images/Grafos2.png" width="500px;"><br><br>
+	</section>
+</section>
+</body>
+
+</html>
+
+		
